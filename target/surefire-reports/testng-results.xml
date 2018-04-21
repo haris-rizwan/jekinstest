@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="7" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-04-19T18:03:30Z" name="Regression suite (0)" finished-at="2018-04-19T18:03:30Z" duration-ms="9">
+    <groups>
+      <group name="cars">
+        <method signature="TestNG_grouping.testAudii()[pri:0, instance:com.expedia.TestNG_grouping@6f1de4c7]" name="testAudii" class="com.expedia.TestNG_grouping"/>
+        <method signature="TestNG_grouping.testBmw()[pri:0, instance:com.expedia.TestNG_grouping@6f1de4c7]" name="testBmw" class="com.expedia.TestNG_grouping"/>
+        <method signature="TestNG_grouping.testMercedes()[pri:0, instance:com.expedia.TestNG_grouping@6f1de4c7]" name="testMercedes" class="com.expedia.TestNG_grouping"/>
+      </group> <!-- cars -->
+    </groups>
+    <test started-at="2018-04-19T18:03:30Z" name="Grouping Demo" finished-at="2018-04-19T18:03:30Z" duration-ms="9">
+      <class name="com.expedia.TestNG_grouping">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.expedia.TestNG_grouping@6f1de4c7]" started-at="2018-04-19T14:03:30Z" name="setUp" finished-at="2018-04-19T14:03:30Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAudii()[pri:0, instance:com.expedia.TestNG_grouping@6f1de4c7]" started-at="2018-04-19T14:03:30Z" name="testAudii" finished-at="2018-04-19T14:03:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAudii -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.expedia.TestNG_grouping@6f1de4c7]" started-at="2018-04-19T14:03:30Z" name="beforeMethod" finished-at="2018-04-19T14:03:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.expedia.TestNG_grouping@6f1de4c7]" started-at="2018-04-19T14:03:30Z" name="afterMethod" finished-at="2018-04-19T14:03:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.expedia.TestNG_grouping@6f1de4c7]" started-at="2018-04-19T14:03:30Z" name="beforeMethod" finished-at="2018-04-19T14:03:30Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.expedia.TestNG_grouping@6f1de4c7]" started-at="2018-04-19T14:03:30Z" name="afterMethod" finished-at="2018-04-19T14:03:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testBmw()[pri:0, instance:com.expedia.TestNG_grouping@6f1de4c7]" started-at="2018-04-19T14:03:30Z" name="testBmw" finished-at="2018-04-19T14:03:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmw -->
+        <test-method signature="testMercedes()[pri:0, instance:com.expedia.TestNG_grouping@6f1de4c7]" started-at="2018-04-19T14:03:30Z" name="testMercedes" finished-at="2018-04-19T14:03:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMercedes -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.expedia.TestNG_grouping@6f1de4c7]" started-at="2018-04-19T14:03:30Z" name="afterMethod" finished-at="2018-04-19T14:03:30Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.expedia.TestNG_grouping@6f1de4c7]" started-at="2018-04-19T14:03:30Z" name="beforeMethod" finished-at="2018-04-19T14:03:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.expedia.TestNG_grouping@6f1de4c7]" started-at="2018-04-19T14:03:30Z" name="cleanUp" finished-at="2018-04-19T14:03:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.expedia.TestNG_grouping -->
+    </test> <!-- Grouping Demo -->
+  </suite> <!-- Regression suite (0) -->
+  <suite started-at="2018-04-19T18:03:09Z" name="Regression suite" finished-at="2018-04-19T18:03:25Z" duration-ms="15384">
+    <groups>
+    </groups>
+    <test started-at="2018-04-19T18:03:09Z" name="Application Test" finished-at="2018-04-19T18:03:25Z" duration-ms="15384">
+      <class name="com.expedia.FlightPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.expedia.FlightPageTest@49139829]" started-at="2018-04-19T14:03:09Z" name="setUp" finished-at="2018-04-19T14:03:21Z" duration-ms="11962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test()[pri:0, instance:com.expedia.FlightPageTest@49139829]" started-at="2018-04-19T14:03:21Z" name="test" finished-at="2018-04-19T14:03:25Z" duration-ms="3292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.expedia.FlightPageTest@49139829]" started-at="2018-04-19T14:03:25Z" name="tearDown" finished-at="2018-04-19T14:03:25Z" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.expedia.FlightPageTest -->
+    </test> <!-- Application Test -->
+  </suite> <!-- Regression suite -->
+</testng-results>

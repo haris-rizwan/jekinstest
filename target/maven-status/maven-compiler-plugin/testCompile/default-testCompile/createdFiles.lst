@@ -1,0 +1,5 @@
+com/expedia/FlightPageTest.class
+utilities/waitTypes.class
+page/classes/FlightPage.class
+com/expedia/TestNG_grouping.class
+page/classes/HotelPageFactory.class
